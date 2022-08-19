@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		7240788228AF612E00C2E392 /* ios_app_dev_tutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7240788128AF612E00C2E392 /* ios_app_dev_tutorialsApp.swift */; };
 		7240788428AF612E00C2E392 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7240788328AF612E00C2E392 /* MeetingView.swift */; };
-		7240788628AF612F00C2E392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7240788528AF612F00C2E392 /* Assets.xcassets */; };
+		7240788628AF612F00C2E392 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7240788528AF612F00C2E392 /* Images.xcassets */; };
 		7240788928AF612F00C2E392 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7240788828AF612F00C2E392 /* Preview Assets.xcassets */; };
 		7240789328AF612F00C2E392 /* ios_app_dev_tutorialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7240789228AF612F00C2E392 /* ios_app_dev_tutorialsTests.swift */; };
 		7240789D28AF612F00C2E392 /* ios_app_dev_tutorialsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7240789C28AF612F00C2E392 /* ios_app_dev_tutorialsUITests.swift */; };
 		7240789F28AF612F00C2E392 /* ios_app_dev_tutorialsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7240789E28AF612F00C2E392 /* ios_app_dev_tutorialsUITestsLaunchTests.swift */; };
 		724078AD28AF74EB00C2E392 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724078AC28AF74EB00C2E392 /* Theme.swift */; };
+		724078AF28AF765F00C2E392 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724078AE28AF765F00C2E392 /* CardView.swift */; };
+		724078B128AF76AA00C2E392 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724078B028AF76AA00C2E392 /* DailyScrum.swift */; };
+		724078B328AF7BEB00C2E392 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724078B228AF7BEB00C2E392 /* TrailingIconLabelStyle.swift */; };
+		724078B728AF7F0800C2E392 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 724078B628AF7F0800C2E392 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,7 @@
 		7240787E28AF612E00C2E392 /* ios-app-dev-tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-app-dev-tutorials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7240788128AF612E00C2E392 /* ios_app_dev_tutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_app_dev_tutorialsApp.swift; sourceTree = "<group>"; };
 		7240788328AF612E00C2E392 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
-		7240788528AF612F00C2E392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7240788528AF612F00C2E392 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7240788828AF612F00C2E392 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7240788E28AF612F00C2E392 /* ios-app-dev-tutorialsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-app-dev-tutorialsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7240789228AF612F00C2E392 /* ios_app_dev_tutorialsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_app_dev_tutorialsTests.swift; sourceTree = "<group>"; };
@@ -46,6 +50,10 @@
 		7240789C28AF612F00C2E392 /* ios_app_dev_tutorialsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_app_dev_tutorialsUITests.swift; sourceTree = "<group>"; };
 		7240789E28AF612F00C2E392 /* ios_app_dev_tutorialsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_app_dev_tutorialsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		724078AC28AF74EB00C2E392 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		724078AE28AF765F00C2E392 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		724078B028AF76AA00C2E392 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		724078B228AF7BEB00C2E392 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		724078B628AF7F0800C2E392 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +104,11 @@
 		7240788028AF612E00C2E392 /* ios-app-dev-tutorials */ = {
 			isa = PBXGroup;
 			children = (
-				724078AB28AF74D300C2E392 /* Models */,
 				7240788128AF612E00C2E392 /* ios_app_dev_tutorialsApp.swift */,
+				724078AE28AF765F00C2E392 /* CardView.swift */,
 				7240788328AF612E00C2E392 /* MeetingView.swift */,
-				7240788528AF612F00C2E392 /* Assets.xcassets */,
+				724078AB28AF74D300C2E392 /* Models */,
+				724078B428AF7EC500C2E392 /* Resource */,
 				7240788728AF612F00C2E392 /* Preview Content */,
 			);
 			path = "ios-app-dev-tutorials";
@@ -134,8 +143,19 @@
 			isa = PBXGroup;
 			children = (
 				724078AC28AF74EB00C2E392 /* Theme.swift */,
+				724078B028AF76AA00C2E392 /* DailyScrum.swift */,
+				724078B228AF7BEB00C2E392 /* TrailingIconLabelStyle.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		724078B428AF7EC500C2E392 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7240788528AF612F00C2E392 /* Images.xcassets */,
+				724078B628AF7F0800C2E392 /* Colors.xcassets */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,8 +262,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				724078B728AF7F0800C2E392 /* Colors.xcassets in Resources */,
 				7240788928AF612F00C2E392 /* Preview Assets.xcassets in Resources */,
-				7240788628AF612F00C2E392 /* Assets.xcassets in Resources */,
+				7240788628AF612F00C2E392 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				724078B128AF76AA00C2E392 /* DailyScrum.swift in Sources */,
+				724078B328AF7BEB00C2E392 /* TrailingIconLabelStyle.swift in Sources */,
 				724078AD28AF74EB00C2E392 /* Theme.swift in Sources */,
 				7240788428AF612E00C2E392 /* MeetingView.swift in Sources */,
+				724078AF28AF765F00C2E392 /* CardView.swift in Sources */,
 				7240788228AF612E00C2E392 /* ios_app_dev_tutorialsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
