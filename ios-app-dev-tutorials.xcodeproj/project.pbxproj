@@ -14,6 +14,7 @@
 		7240789328AF612F00C2E392 /* ios_app_dev_tutorialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7240789228AF612F00C2E392 /* ios_app_dev_tutorialsTests.swift */; };
 		7240789D28AF612F00C2E392 /* ios_app_dev_tutorialsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7240789C28AF612F00C2E392 /* ios_app_dev_tutorialsUITests.swift */; };
 		7240789F28AF612F00C2E392 /* ios_app_dev_tutorialsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7240789E28AF612F00C2E392 /* ios_app_dev_tutorialsUITestsLaunchTests.swift */; };
+		724078AD28AF74EB00C2E392 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724078AC28AF74EB00C2E392 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		7240789828AF612F00C2E392 /* ios-app-dev-tutorialsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-app-dev-tutorialsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7240789C28AF612F00C2E392 /* ios_app_dev_tutorialsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_app_dev_tutorialsUITests.swift; sourceTree = "<group>"; };
 		7240789E28AF612F00C2E392 /* ios_app_dev_tutorialsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_app_dev_tutorialsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		724078AC28AF74EB00C2E392 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		7240788028AF612E00C2E392 /* ios-app-dev-tutorials */ = {
 			isa = PBXGroup;
 			children = (
+				724078AB28AF74D300C2E392 /* Models */,
 				7240788128AF612E00C2E392 /* ios_app_dev_tutorialsApp.swift */,
 				7240788328AF612E00C2E392 /* MeetingView.swift */,
 				7240788528AF612F00C2E392 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				7240789E28AF612F00C2E392 /* ios_app_dev_tutorialsUITestsLaunchTests.swift */,
 			);
 			path = "ios-app-dev-tutorialsUITests";
+			sourceTree = "<group>";
+		};
+		724078AB28AF74D300C2E392 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				724078AC28AF74EB00C2E392 /* Theme.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				724078AD28AF74EB00C2E392 /* Theme.swift in Sources */,
 				7240788428AF612E00C2E392 /* MeetingView.swift in Sources */,
 				7240788228AF612E00C2E392 /* ios_app_dev_tutorialsApp.swift in Sources */,
 			);
