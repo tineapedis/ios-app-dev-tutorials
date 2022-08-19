@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7240788228AF612E00C2E392 /* ios_app_dev_tutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7240788128AF612E00C2E392 /* ios_app_dev_tutorialsApp.swift */; };
-		7240788428AF612E00C2E392 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7240788328AF612E00C2E392 /* ContentView.swift */; };
+		7240788428AF612E00C2E392 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7240788328AF612E00C2E392 /* MeetingView.swift */; };
 		7240788628AF612F00C2E392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7240788528AF612F00C2E392 /* Assets.xcassets */; };
 		7240788928AF612F00C2E392 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7240788828AF612F00C2E392 /* Preview Assets.xcassets */; };
 		7240789328AF612F00C2E392 /* ios_app_dev_tutorialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7240789228AF612F00C2E392 /* ios_app_dev_tutorialsTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		7240787E28AF612E00C2E392 /* ios-app-dev-tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-app-dev-tutorials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7240788128AF612E00C2E392 /* ios_app_dev_tutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_app_dev_tutorialsApp.swift; sourceTree = "<group>"; };
-		7240788328AF612E00C2E392 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7240788328AF612E00C2E392 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		7240788528AF612F00C2E392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7240788828AF612F00C2E392 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7240788E28AF612F00C2E392 /* ios-app-dev-tutorialsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-app-dev-tutorialsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				7240788128AF612E00C2E392 /* ios_app_dev_tutorialsApp.swift */,
-				7240788328AF612E00C2E392 /* ContentView.swift */,
+				7240788328AF612E00C2E392 /* MeetingView.swift */,
 				7240788528AF612F00C2E392 /* Assets.xcassets */,
 				7240788728AF612F00C2E392 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7240788428AF612E00C2E392 /* ContentView.swift in Sources */,
+				7240788428AF612E00C2E392 /* MeetingView.swift in Sources */,
 				7240788228AF612E00C2E392 /* ios_app_dev_tutorialsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
